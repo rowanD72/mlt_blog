@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('layouts/header'); -%>
+
+    <body>
+        <!--Navigation Section -->
+        <%- include('layouts/navbar'); -%>
+
+        <!-- Page Header -->
+        <header class="masthead" style="background-image: url('img/lamb_chops.jpeg')">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        <div class="site-heading">
+                            <h1>MichLaTex Menu</h1>
+                            <span class="subheading">Menu By Chef Von</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <article>
+                <h1>Menu Section</h1>
+                <p>MichLaTex menu is not like your traditional menus. Here at MichLaTex, we make our menu according to
+                    your diet. Our mission is to provide MichLaTex clients with the best tasting, but also, healthy
+                    meals that everyone can enjoy. Remember, healthy does not mean flavorless.</p>
+            </article>
+        </div>
+        <div class="container">
+            <h3>Seafood</h3>
+            <div class="row">
+                <!-- Shrimp Veggies Card-->
+                <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                    <img src="/img/shrimp_bowl.jpg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                    <div class="card-body">
+                        <h5 class="card-title">Shrimp with Veggies</h5>
+                        <small class="text-muted">Mouth watering spicy shrimp</small>
+                        <div>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Read
+                                More...</a>
+                        </div>
+                    </div>
+                    <!-- Start of the Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" class="staticBackdropLabel">Shrimp with Veggies</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">Spicy deveined shrimp mixed with hearty vegetables. Great meal
+                                    for a single setting or for the whole family. This is an ideal meal for one of those
+                                    cold winter days.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Crab Legs Card -->
+                <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                    <img src="/img/crableg_pan.jpeg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                    <div class="card-body">
+                        <h5 class="card-title">Crab Legs with Lemon</h5>
+                        <small class="text-muted">Seasoned all the way to the crab meat</small>
+                        <div>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#crabBackdrop">Read
+                                More...</a>
+                        </div>
+                    </div>
+                    <!-- Start of the Modal -->
+                    <div class="modal fade" id="crabBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Crab Legs with Lemon</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">Crab legs with zesty lemon. Seasoned all the way to the meat.
+                                    Either for game day or just a nice gathering, this meal will satisfy everyone.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gumbo Card -->
+                <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                    <img src="/img/gumbo_bowls.jpeg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                    <div class="card-body">
+                        <h5 class="card-title">Seafood Gumbo</h5>
+                        <small class="text-muted">Louisiana Style Gumbo with Okra</small>
+                        <div>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#gumboBackdrop">Read
+                                More...</a>
+                        </div>
+                    </div>
+                    <!-- Start of the Modal -->
+                    <div class="modal fade" id="gumboBackdrop" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Seafood Gumbo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">Looking for that traditional taste when it comes to gumbo? Look
+                                    no more. Made with homemade rue. Filled with shrimp, sausage, chicken, okra, and
+                                    other tasty treats that make that gumbo taste like heaven. Great meal for the
+                                    family.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Comfort Food Section -->
+                <div class="container mt-5">
+                    <h3>Comfort Foods</h3>
+                    <div class="row">
+                        <!-- Ox Tail Card -->
+                        <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                            <img src="/img/ox_tails.jpeg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                            <div class="card-body">
+                                <h5 class="card-title">Smothered Ox Tails</h5>
+                                <small class="text-muted">Good ol southern comfort</small>
+                                <div>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#oxTailBackdrop">Read More...</a>
+                                </div>
+                            </div>
+                            <!-- Start of the Modal -->
+                            <div class="modal fade" id="oxTailBackdrop" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Smothered Ox Tails</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        </div>
+                                        <div class="modal-body">Made with fresh ox tails smothered in homemade gravy
+                                            quarter cut potatoes and fresh sweet green peas.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Lamb Chop Card -->
+                        <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                            <img src="/img/lamb_chops.jpeg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                            <div class="card-body">
+                                <h5 class="card-title">Lamb Chops with Potatoes and Asparagus</h5>
+                                <small class="text-muted">Tender lamb, garlic mashed potatoes, and buttery
+                                    asparagus</small>
+                                <div>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#lambBackdrop">Read More...</a>
+                                </div>
+                            </div>
+                            <!-- Start of the Modal -->
+                            <div class="modal fade" id="lambBackdrop" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Lamb Chops with Potatoes
+                                                and
+                                                Asparagus</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        </div>
+                                        <div class="modal-body">Lollipop Lamb chops with garlic seasoned potatoes and
+                                            butter cooked asparagus. This meal is perfect for a date night with your
+                                            loved one. Serve with a glass of red wine to top off a wonderful night in.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Steak and Potatoes Card -->
+                        <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                            <img src="/img/steak_potatoes.jpeg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                            <div class="card-body">
+                                <h5 class="card-title">Steak and Potatoes</h5>
+                                <small class="text-muted">12oz steak, 4 shrimp, fresh homemade mashed potatoes, and
+                                    asparagus.</small>
+                                <div>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#steakBackdrop">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start of the Modal -->
+                        <div class="modal fade" id="steakBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Steak and Potatoes</h5>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    </div>
+                                    <div class="modal-body"> A meal for the surf and turf lover. Steak and
+                                        shrimp seasoned to perfection. Mashed Potatoes freshly made wth chives.
+                                        Asparagus cooked with homemade garlic and onion butter.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- South Of The Border Section Begins -->
+                <div class="container mt-5">
+                    <h3>South Of The Border</h3>
+                    <!-- Tamale Card -->
+                    <div class="row">
+                        <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                            <img src="/img/tamale.jpg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                            <div class="card-body">
+                                <h5 class="card-title">Tamales</h5>
+                                <small class="text-muted">Beef, Pork, and Chicken Tamales</small>
+                                <div>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#tamaleBackdrop">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start of the Modal -->
+                        <div class="modal fade" id="tamaleBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Tamales</h5>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    </div>
+                                    <div class="modal-body">Michigan inspired tamales. You can choose from pork,
+                                        chicken, or beef tamales. Masa is also seasoned for that perfect taste in every
+                                        bite.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Enchilada Card -->
+                        <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                            <img src="/img/enchilada_pan.jpg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                            <div class="card-body">
+                                <h5 class="card-title">Family Pan of Cheesy Enchiladas</h5>
+                                <small class="text-muted">Pan of cheesy and meat goodness for the whole family</small>
+                                <div>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#enchiladaBackdrop">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start of the Modal -->
+                        <div class="modal fade" id="enchiladaBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Family Pan Of Cheesy Enchiladas
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    </div>
+                                    <div class="modal-body">Enchiladas made with Vargas taco bread. This pan holds
+                                        enough enchiladas for an entire family. Cheesy goodness, rolled into a beautiful
+                                        enchilada.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Taco Card -->
+                        <div class="card col-lg-3 col-md-6 col-sm-12 mx-auto food-item-card">
+                            <img src="/img/vargas_taco.jpeg" class="card-img-top food-item-img" alt="shrimp bowl" />
+                            <div class="card-body">
+                                <h5 class="card-title">Beef Taco with Vargas Bread</h5>
+                                <small class="text-muted">Michigan Taco</small>
+                                <div>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#tacoBackdrop">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start of the Modal -->
+                        <div class="modal fade" id="tacoBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Beef Tacos</h5>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    </div>
+                                    <div class="modal-body">Michigan Taco made with the best taco bread made in the US.
+                                        Vargas taco bread is a tradition in my family whenever we cook tacos. Now it can
+                                        be a part of your family's tradition.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Section -->
+        <%- include('layouts/footer'); -%>
+
+        <!-- Scripts Section -->
+        <%- include('layouts/scripts'); -%>
+    </body>
+</html>
